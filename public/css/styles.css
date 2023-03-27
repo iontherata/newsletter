@@ -1,0 +1,45 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+ 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 500px;
+  height: 400px;
+
+}
+
+.info input {
+  width: 70%;
+  text-align: center;
+  height: 35px;
+  margin: 2px;
+  border: none;
+  
+  background-color: #d5bdaf;
+  font-size: x-large;
+}
+
+.info input:focus {
+  background-color: #fdfcdc;
+}
+
+.mainButton {
+  width: 70%;
+  text-align: center;
+  height: 35px;
+  margin: 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #a9def9;
+  font-size: x-large;
+}
+
